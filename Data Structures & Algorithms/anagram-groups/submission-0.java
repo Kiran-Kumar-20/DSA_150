@@ -1,5 +1,5 @@
 //Time Complexity: O(N.LlogL) => We sort each of the N strings of length L
-//Space Complexity: $O(N.L) => We store all characters of all strings in the HashMap
+//Space Complexity: O(N.L) => We store all characters of all strings in the HashMap
 //If the string lengths are too large, we can use a frequency counting
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
